@@ -1,0 +1,32 @@
+
+
+
+.daily-offers {
+    height: 120px;
+    display: flex;
+    /*gap: 15px; /* va fi util pt nav */
+    justify-content: space-between ;
+    align-items: center;
+    padding: 15px;
+}
+
+.daily-offers > .image {
+ width: 20%;   
+ max-height: 100px;
+}
+.daily-offers > .about {
+    width: 70%; 
+    max-height: 100px;  
+   }
+
+
+   /* pt .about mai creezi doua divuri in el, 
+   pe care le centrezi tot cu flex.  
+   
+   diferenta este folosirea 
+   
+   
+   flex-direction: column;
+   
+   */
+   

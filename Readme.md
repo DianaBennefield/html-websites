@@ -176,3 +176,17 @@ Used to comment the selected lines/ portion of code
 
 
 
+
+
+# Tema
+
+1. Pe langa pagina about, sa creezi si o pagina contact,
+cu calea /contact, titlul Contact, aceiasi structura (header,main,footer), in care sa pui o descriere a serviciilor oferite (bookshop/coach/therapy/), dar si niste numere (fake) de contact, email si telefon.
+
+Hint: importanta ca sa fie citibil este sa fie pe randuri separate, eventual fiecare cu un mic heading inainte e.g.    
+```html
+<h2> phone number: </h2> 
+<div> +1 (234) 323 234 </div>
+```
+
+
