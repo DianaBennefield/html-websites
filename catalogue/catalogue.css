@@ -1,0 +1,67 @@
+
+h1 {
+    margin: 20px;
+}
+.books-shelf {
+    display: flex;
+    justify-content: start;
+    gap: 1vw;
+    flex-wrap: wrap;
+
+    padding: 1vw;
+
+}
+
+.books-shelf .book {
+    width: 30vw; 
+    background: whitesmoke;
+
+    height: 300px;
+    padding: 3px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.books-shelf .book .image {
+    height: 200px;
+    background-color: white;
+
+    /* urmatoarele 3 linii centreaza imaginea in div-ul cu clasa image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.books-shelf .book .image img {
+    max-height: 200px;
+    max-width: 27vw;
+}
+
+.books-shelf .book .title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: serif;
+}
+.books-shelf .book .author {
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+.books-shelf .book .price {
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+.books-shelf .book .book-type {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+
+.aligned-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

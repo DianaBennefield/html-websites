@@ -1,4 +1,37 @@
+* {
+    margin: 0;
+    font-size: 18px;
 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* o regula care sa spatieze nav-ul si footerul
+
+Destul de simplu: facem main-ul sa aiba inaltimea de minim 100vh 
+  (viewport height, adica inaltimea a ceea ce vedem la un moment dat din pagina)
+ */
+ main {
+    min-height: 100vh;
+ }
+
+ /* respectiv pentru navigatie  */
+/* ca sa centram elemente, putem folosi flex-ul din css */
+nav {
+
+    height: 60px;
+    display: flex; /* sa se comporte ca un tub de pringles */
+    gap: 10px; /* spatiul dintre chipsuri */
+
+    /* putem seta si directia flex-ului */
+    flex-direction: row;
+
+    /* pentru centrarea propriu-zisa avem   align-items   si justify-content */
+    /* align spune cum aranjam chipsurile **pe directia** flex-ului
+       iar justify **pe directia perpendiculara** */
+    justify-content: space-around;
+    align-items: center; 
+
+}
 
 
 .daily-offers {
@@ -11,7 +44,7 @@
 }
 
 .daily-offers > .image {
- width: 20%;   
+ width: 20%;
  max-height: 100px;
 }
 .daily-offers > .about {
